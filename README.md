@@ -1,4 +1,4 @@
-# Cadastro de Informações de Veículos com Tabela de Espalhamento (Hash
+# Cadastro de Informações de Veículos com Tabela de Espalhamento (Hash)
 Este é um projeto desenvolvido pelos alunos Matheus Schwertz e Vitor Badin para a disciplina de Estrutura de Dados da Universidade Atitus.
 ## Descrição do Projeto
 Este projeto consiste em um programa em Python que permite cadastrar informações de veículos, incluindo modelo, ano, placa, cor, entre outras. O programa utiliza a estrutura de dados de Tabela de Espalhamento (Hash) para armazenar e recuperar as informações dos veículos cadastrados.
