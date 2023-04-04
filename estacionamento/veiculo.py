@@ -85,23 +85,17 @@ assert tabela.buscar("ISS268")
 
 ##   EXCLUINDO 5 VEÍCULOS   ##
 
-tabela.excluir("ISS269") == True
-tabela.excluir("ISS269") == None
+tabela.excluir("ISS269") 
 
-tabela.excluir("ISS267") == True
-tabela.excluir("ISS267") == None
+tabela.excluir("ISS267") 
 
-tabela.excluir("ISS264") == True
-tabela.excluir("ISS264") == None
+tabela.excluir("ISS264") 
 
-tabela.excluir("ISS263") == True
-tabela.excluir("ISS263") == None
+tabela.excluir("ISS263") 
 
-tabela.excluir("ISS262") == True
-tabela.excluir("ISS262") == None
+tabela.excluir("ISS262") 
 
-tabela.excluir("ISS261") == True
-tabela.excluir("ISS261") == None
+tabela.excluir("ISS261") 
 
 
 ##   INSERINDO 3 VEÍCULOS  ##
