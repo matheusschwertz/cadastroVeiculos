@@ -48,6 +48,74 @@ class TabelaHash:
 
 tabela = TabelaHash(29)
 
+
+
+##     INNSERÇÃO DE 10 VEÍCULOS    ##
+
+tabela.inserir(placa = "ISS269", ano = 2015, marca_modelo = "Audi A3", cor = "Branco")
+assert tabela.buscar("ISS269")
+
+tabela.inserir(placa = "ISS260", ano = 2022, marca_modelo = "Ford Fiesta", cor = "Preto")
+assert tabela.buscar("ISS260")
+
+tabela.inserir(placa = "ISS261", ano = 2021, marca_modelo = "Toyota Hilux", cor = "Prata")
+assert tabela.buscar("ISS261")
+
+tabela.inserir(placa = "ISS262", ano = 2023, marca_modelo = "Fiat Toro", cor = "Vermelho")
+assert tabela.buscar("ISS262")
+
+tabela.inserir(placa = "ISS263", ano = 2017, marca_modelo = "Nissan Kicks", cor = "Cinza")
+assert tabela.buscar("ISS263")
+
+tabela.inserir(placa = "ISS264", ano = 2019, marca_modelo = "Honda Civic", cor = "Azul")
+assert tabela.buscar("ISS264")
+
+tabela.inserir(placa = "ISS265", ano = 2019, marca_modelo = "Volkswagen Golf GTI", cor = "Branco")
+assert tabela.buscar("ISS265")
+
+tabela.inserir(placa = "ISS266", ano = 2022, marca_modelo = "Ford Ka", cor = "Prata")
+assert tabela.buscar("ISS266")
+
+tabela.inserir(placa = "ISS267", ano = 2010, marca_modelo = "Volkswagen Polo", cor = "Verde")
+assert tabela.buscar("ISS267")
+
+tabela.inserir(placa = "ISS268", ano = 1974, marca_modelo = "Volkswagen Brasilia", cor = "Amarelo")
+assert tabela.buscar("ISS268")
+
+
+##   EXCLUINDO 5 VEÍCULOS   ##
+
+tabela.excluir("ISS269") == True
+tabela.excluir("ISS269") == None
+
+tabela.excluir("ISS267") == True
+tabela.excluir("ISS267") == None
+
+tabela.excluir("ISS264") == True
+tabela.excluir("ISS264") == None
+
+tabela.excluir("ISS263") == True
+tabela.excluir("ISS263") == None
+
+tabela.excluir("ISS262") == True
+tabela.excluir("ISS262") == None
+
+tabela.excluir("ISS261") == True
+tabela.excluir("ISS261") == None
+
+
+##   INSERINDO 3 VEÍCULOS  ##
+
+tabela.inserir(placa = "ISS271", ano = 1974, marca_modelo = "Chevrolet Opala", cor = "Amarelo")
+assert tabela.buscar("ISS271")
+
+tabela.inserir(placa = "ISS272", ano = 1969, marca_modelo = "Dodge Charger", cor = "Preto")
+assert tabela.buscar("ISS272")
+
+tabela.inserir(placa = "ISS273", ano = 2016, marca_modelo = "BMW I8", cor = "Branco")
+assert tabela.buscar("ISS273")
+
+
 while True:
     opcao = input("Escolha uma opção:\n1. Inserir item\n2. Buscar item\n3. Excluir item\n4. Mostrar tabela\n0. Sair\n")
     if opcao == "1":
